@@ -4,6 +4,7 @@ class Javabuzz {
     return (number % divisor === 0);
   }
 
+  // to be finished
   game() {
     for (var number = 1; number <= 100; number ++) {
       let num = this.says(number);
