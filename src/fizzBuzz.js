@@ -4,6 +4,14 @@ class Javabuzz {
     return (number % divisor === 0);
   }
 
+  game() {
+    for (var number = 1; number <= 100; number ++) {
+      let num = this.says(number);
+      console.log(num);
+    }
+
+  }
+
   says(number){
     if (this.isDivisibleByFifteen(number)){
       return "JavaBuzz";
